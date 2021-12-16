@@ -13,7 +13,7 @@
             <h2>
                 <asp:Image ID="Image1" runat="server" Height="100%" ImageUrl="~/Images/cake.jpg" Width="100%" />
             </h2>
-            <h2>Cake</h2>
+            <h2>Cake Cake</h2>
             <p>
                 ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
             A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
