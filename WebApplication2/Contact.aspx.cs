@@ -43,5 +43,13 @@ namespace WebApplication2
                 Label1.Text = "Your Message are submit";
             }
         }
+
+        protected void Reset_Click(object sender, EventArgs e)
+        {
+            tname.Text = string.Empty;
+            temail.Text = string.Empty;
+            tsubject.Text = string.Empty;
+            tmessage.Text = string.Empty;
+        }
     }
 }
