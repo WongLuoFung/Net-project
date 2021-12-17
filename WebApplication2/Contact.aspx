@@ -5,7 +5,7 @@
     <p>Name:</p>
     <p>
         <asp:TextBox ID="tname" runat="server" CssClass="form-control"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="RequiredFieldValidator"></asp:RequiredFieldValidator>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="tname"></asp:RequiredFieldValidator>
     </p>
     <p>Email:</p>
     <p>
