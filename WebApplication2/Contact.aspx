@@ -4,19 +4,19 @@
     <h2><%: Title %>.</h2>
     <p>Name:</p>
     <p>
-        <asp:TextBox ID="tname" runat="server" Width="305px"></asp:TextBox>
+        <asp:TextBox ID="tname" runat="server" CssClass="form-control"></asp:TextBox>
     </p>
     <p>Email:</p>
     <p>
-        <asp:TextBox ID="temail" runat="server" Width="302px"></asp:TextBox>
+        <asp:TextBox ID="temail" runat="server" CssClass="form-control"></asp:TextBox>
     </p>
     <p>Subject:</p>
     <p>
-        <asp:TextBox ID="tsubject" runat="server" Width="297px"></asp:TextBox>
+        <asp:TextBox ID="tsubject" runat="server" CssClass="form-control"></asp:TextBox>
     </p>
     <p>Message</p>
     <p>
-        <asp:TextBox ID="tmessage" runat="server" Height="81px" Width="342px"></asp:TextBox>
+        <asp:TextBox ID="tmessage" runat="server" CssClass="form-control" Height="81px" MaxWidth="280px"></asp:TextBox>
     </p>
     <p>&nbsp;</p>
     <p>
