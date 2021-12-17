@@ -4,7 +4,7 @@
     <h1 style="text-align:center">
         <asp:Image ID="Image1" runat="server" Height="600px" ImageUrl="~/Images/bakery.jpg" Width="1200px" />
     </h1>
-    <h1 style="text-align:center">About Us</h1>
+    <h1 style="text-align:center">About Usaaaaaaaa</h1>
     <p >WOW Bakery started as a bakery. It is our everyday goal to produce foods that will not only nourish your body but also delight your senses, leaving you a wonderful memory.</p>
     <p >&nbsp;</p>
     <p style="font-weight:bold;font-size:18px">Our beliefs: </p>
