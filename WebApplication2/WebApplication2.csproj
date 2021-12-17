@@ -188,7 +188,11 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
     <Content Include="Admin\Web.config" />
+    <Content Include="Images\about1.jpg" />
+    <Content Include="Images\about2.jpg" />
+    <Content Include="Images\about3.jpg" />
     <Content Include="Images\bakery.jpg" />
+    <Content Include="Images\bakery1.jpg" />
     <Content Include="Images\Black Forest.jpg" />
     <Content Include="Images\Blueberry.jpg" />
     <Content Include="Images\bread.jpg" />
