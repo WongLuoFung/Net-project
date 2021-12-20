@@ -3,7 +3,15 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
         <p>
-        <asp:Image ID="Image4" runat="server" Height="100%" ImageUrl="~/Images/Home.jpg" Width="100%" />
+
+            <div style="text-align:center">
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                <ContentTemplate>
+                    <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/slider.xml" />
+                    <asp:Timer ID="Timer1" runat="server" Interval="2000"></asp:Timer>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+            </div>
         <p >&nbsp;</p>
         </p>
 

@@ -208,6 +208,7 @@
     <Content Include="Member\Profile.aspx" />
     <Content Include="Member\Web.config" />
     <Content Include="ImageHandler.ashx" />
+    <Content Include="slider.xml" />
     <Content Include="WebForm1.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
