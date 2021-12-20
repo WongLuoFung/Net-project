@@ -167,6 +167,7 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Admin\Admin.aspx" />
+    <Content Include="Bread.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -188,6 +189,8 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
     <Content Include="Admin\Web.config" />
+    <Content Include="Images\Ciabatta.jpg" />
+    <Content Include="Images\Cinnamon Twist Doughnut.jpg" />
     <Content Include="Images\Home.jpg" />
     <Content Include="Images\about1.jpg" />
     <Content Include="Images\about2.jpg" />
@@ -201,10 +204,13 @@
     <Content Include="Images\Chocolate Frosted Doughnut.jpg" />
     <Content Include="Images\donut.jpg" />
     <Content Include="Images\Old-fashioned Doughnut.jpg" />
-    <Content Include="Images\3.png" />
     <Content Include="Images\PEOPLE.png" />
     <Content Include="Images\Purpose.jpg" />
     <Content Include="Images\Red Velvet.jpg" />
+    <Content Include="Images\Sourdough.jpg" />
+    <Content Include="Images\Whole Wheat Bread.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Member\Profile.aspx" />
     <Content Include="Member\Web.config" />
     <Content Include="ImageHandler.ashx" />
@@ -368,6 +374,13 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Bread.aspx.cs">
+      <DependentUpon>Bread.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bread.aspx.designer.cs">
+      <DependentUpon>Bread.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

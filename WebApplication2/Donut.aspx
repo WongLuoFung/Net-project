@@ -14,7 +14,7 @@
 </head>
 <body>
         <div>
-            <h1 class="auto-style2" style="text-align:center">Cake</h1>
+            <h1 class="auto-style2" style="text-align:center">Donuts</h1>
             <br />
             <table align="center" cellpadding="10" cellspacing="1" class="auto-style1" border="1">
                 <tr>
@@ -25,9 +25,9 @@
                         <br />
                         Flavor: 
                         <asp:DropDownList ID="ddl1" runat="server" AutoPostBack="True">
-                            <asp:ListItem Value="30.00">Chocolate Frosted Doughnut</asp:ListItem>
-                            <asp:ListItem Value="20.00">Cinnamon Twist Doughnut</asp:ListItem>
-                            <asp:ListItem Value="15.00">Old-fashioned Doughnut</asp:ListItem>
+                            <asp:ListItem Value="5.00">Chocolate Frosted Doughnut</asp:ListItem>
+                            <asp:ListItem Value="6.00">Cinnamon Twist Doughnut</asp:ListItem>
+                            <asp:ListItem Value="3.00">Old-fashioned Doughnut</asp:ListItem>
                         </asp:DropDownList>
                         <br />
                         <br />
@@ -38,21 +38,31 @@
                         <br />
                         Topping:<br />
                         <asp:RadioButtonList ID="rbl1" runat="server" AutoPostBack="True" Width="400px">
-                            <asp:ListItem Value="0.00">Fondant (+ RM 0.00)</asp:ListItem>
-                            <asp:ListItem Value="0.80">Buttercream (+ RM 0.80)</asp:ListItem>
-                            <asp:ListItem Value="1.40">Naked (+ RM 1.40)</asp:ListItem>
+                            <asp:ListItem Value="6.00">Ice Cream Sundae (+ RM 3.00)</asp:ListItem>
+                            <asp:ListItem Value="2.80">Strawberry Shortcake (+ RM 0.80)</asp:ListItem>
+                            <asp:ListItem Value="3.40">Caramel Delight (+ RM 1.40)</asp:ListItem>
                         </asp:RadioButtonList>
                         <br />
                         Decoration:<br />
                         <asp:CheckBoxList ID="cbl1" runat="server" AutoPostBack="True" Width="400px">
-                            <asp:ListItem Value="7.00">M&amp;M (+ RM 7.00)</asp:ListItem>
-                            <asp:ListItem Value="8.00">Snickers (+ RM 8.00)</asp:ListItem>
-                            <asp:ListItem Value="8.50">Oreo (+ RM 9.00)</asp:ListItem>
+                            <asp:ListItem Value="5.00">Ombre strawberry lemonade (+ RM 3.00)</asp:ListItem>
+                            <asp:ListItem Value="2.00">Coconuts (+ RM 1.00)</asp:ListItem>
+                            <asp:ListItem Value="3.50">Maple bacon (+ RM 1.00)</asp:ListItem>
                         </asp:CheckBoxList>
                         <br />
                         <asp:Button ID="btnSubmit" runat="server" Text="Submit Order" OnClick="Button1_Click" />
                         <br />
                         <asp:ValidationSummary ID="ValidationSummary1" runat="server" HeaderText="Error message" />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <a class="btn btn-default" runat="server" href="~/WebForm1">Cake &raquo;</a>
+                        <a class="btn btn-default" runat="server" href="~/Bread" style="margin-left:10px">Bread &raquo;</a>
                     </td>
                     <td style="vertical-align:top;" width="50%">
                         <asp:Panel ID="Panel1" runat="server">
@@ -85,9 +95,6 @@
                 </tr>
             </table>
             <p>&nbsp;</p>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="cake" runat="server" href="~/WebForm1" Height="44px" Text="Cake" Width="128px" />
-            </p>
         </div>
 </body>
 </html>

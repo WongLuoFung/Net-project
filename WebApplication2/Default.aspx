@@ -41,7 +41,7 @@
               </p>
             </td>
             <td style="width:50%;">
-              <asp:Image ID="Image5" runat="server" Height="100%" ImageUrl="~/Images/donut.jpg" Width="100%"/>
+              <asp:Image ID="Image5" runat="server" Height="457px" ImageUrl="~/Images/PEOPLE.png" Width="272px" style="margin-left:130px"/>
             </td>
         </tr>
     </table>
