@@ -28,6 +28,7 @@
                             <asp:ListItem Value="75.00">Red Velvet</asp:ListItem>
                             <asp:ListItem Value="80.00">Blueberry</asp:ListItem>
                             <asp:ListItem Value="89.00">Black Forest</asp:ListItem>
+                            <asp:ListItem Value="75.00">Old-fashioned Doughnut</asp:ListItem>
                         </asp:DropDownList>
                         <br />
                         <br />

@@ -188,6 +188,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
     <Content Include="Admin\Web.config" />
+    <Content Include="Images\Home.jpg" />
     <Content Include="Images\about1.jpg" />
     <Content Include="Images\about2.jpg" />
     <Content Include="Images\about3.jpg" />
@@ -200,6 +201,9 @@
     <Content Include="Images\Chocolate Frosted Doughnut.jpg" />
     <Content Include="Images\donut.jpg" />
     <Content Include="Images\Old-fashioned Doughnut.jpg" />
+    <Content Include="Images\3.png" />
+    <Content Include="Images\PEOPLE.png" />
+    <Content Include="Images\Purpose.jpg" />
     <Content Include="Images\Red Velvet.jpg" />
     <Content Include="Member\Profile.aspx" />
     <Content Include="Member\Web.config" />
@@ -432,6 +436,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Slider\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
