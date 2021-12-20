@@ -7,7 +7,7 @@
         <p >&nbsp;</p>
         </p>
 
-    <table class="nav-justified" style="background-color:#c37960;margin-top:10px;">
+    <table class="nav-justified" style="background-color:#f0d7a7;margin-top:10px;">
         <tr>
             <td style="width:50%;">
                <asp:Image ID="Image6" runat="server" Height="100%" ImageUrl="~/Images/bakery.jpg" Width="100%" />
@@ -36,6 +36,9 @@
               <p style="margin:10px 40px ">In WOW Bakery, we ensure top quality and wide selection of bakery goods catered specially for our customers. All individual bakery products are made with precision and the utmost attention to detail to establish a whole new experience and elevate flavours and textures for our patrons.</p>
               <p style="margin:10px 40px ">We aim to be the leading bakery in Malaysia, in time taking over globally with our scrumptious baked goods and top-notch services. It will soon be unnecessary to travel abroad just to have a taste of the finest pastries!</p>
               <p >&nbsp;</p>
+              <p style="margin:10px 40px">
+              <a class="btn btn-default" runat="server" href="~/About">Read More &raquo;</a>
+              </p>
             </td>
             <td style="width:50%;">
               <asp:Image ID="Image5" runat="server" Height="100%" ImageUrl="~/Images/donut.jpg" Width="100%"/>
@@ -62,7 +65,7 @@
             <h2 style="text-align:center">Donut</h2>
             <p>&nbsp;</p>
             <p style="text-align:center">
-                <a class="btn btn-default" runat="server" href="~/Donut">View Menu &raquo;</a>
+                <a class="btn btn-default" runat="server" href="~/WebForm1">View Menu &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
