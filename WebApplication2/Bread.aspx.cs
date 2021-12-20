@@ -9,9 +9,10 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 using System.IO;
+
 namespace WebApplication2
 {
-    public partial class Donut : System.Web.UI.Page
+    public partial class Bread : System.Web.UI.Page
     {
         string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
 
@@ -88,16 +89,9 @@ namespace WebApplication2
                     command.ExecuteNonQuery();
                     connection.Close();
                 }
-
-
             }
             else
             { }
-        }
-
-        protected void cake_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

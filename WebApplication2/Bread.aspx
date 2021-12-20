@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="WebApplication2.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Bread.aspx.cs" Inherits="WebApplication2.Bread" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <html>
 <head>
@@ -14,7 +14,7 @@
 </head>
 <body>
         <div>
-            <h1 class="auto-style2" style="text-align:center">Cake</h1>
+            <h1 class="auto-style2" style="text-align:center">Bread</h1>
             <br />
             <table align="center" cellpadding="10" cellspacing="1" class="auto-style1" border="1">
                 <tr>
@@ -25,9 +25,9 @@
                         <br />
                         Flavor: 
                         <asp:DropDownList ID="ddl1" runat="server" AutoPostBack="True">
-                            <asp:ListItem Value="75.00">Red Velvet</asp:ListItem>
-                            <asp:ListItem Value="80.00">Blueberry</asp:ListItem>
-                            <asp:ListItem Value="89.00">Black Forest</asp:ListItem>
+                            <asp:ListItem Value="30.00">Ciabatta</asp:ListItem>
+                            <asp:ListItem Value="20.00">Sourdough</asp:ListItem>
+                            <asp:ListItem Value="15.00">Whole Wheat Bread</asp:ListItem>
                         </asp:DropDownList>
                         <br />
                         <br />
@@ -61,8 +61,8 @@
                         <br />
                         <br />
                         <br />
-                        <a class="btn btn-default" runat="server" href="~/Donut">Donuts &raquo;</a>
-                        <a class="btn btn-default" runat="server" href="~/Bread" style="margin-left:10px">Bread &raquo;</a>
+                        <a class="btn btn-default" runat="server" href="~/WebForm1">Cake &raquo;</a>
+                        <a class="btn btn-default" runat="server" href="~/Donut" style="margin-left:10px">Donuts &raquo;</a>
                     </td>
                     <td style="vertical-align:top;" width="50%">
                         <asp:Panel ID="Panel1" runat="server">
@@ -94,9 +94,9 @@
                     </td>
                 </tr>
             </table>
+            <p>&nbsp;</p>
         </div>
 </body>
 </html>
-
 
 </asp:Content>
