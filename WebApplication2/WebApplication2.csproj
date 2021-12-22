@@ -215,7 +215,7 @@
     <Content Include="Member\Web.config" />
     <Content Include="ImageHandler.ashx" />
     <Content Include="slider.xml" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="Cake.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -440,12 +440,12 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Cake.aspx.cs">
+      <DependentUpon>Cake.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Cake.aspx.designer.cs">
+      <DependentUpon>Cake.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

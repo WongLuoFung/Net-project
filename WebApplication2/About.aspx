@@ -2,18 +2,9 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-        <table class="nav-justified" style="background-color:#f0d7a7;margin-top:10px;">
-        <tr>
-            <td style="width:50%;"> 
-              <p style="font-weight:bold;font-size:20px;margin:10px 40px ">About Us </p>
-              <p style="margin:10px 40px " >WOW Bakery started as a bakery. It is our everyday goal to produce foods that will not only nourish your body but also delight your senses, leaving you a wonderful memory. All items are by special order and can be tailored to fit the client’s needs.</p>
-              <p >&nbsp;</p>
-            </td>
-            <td style="width:50%;">
-                <asp:Image ID="Image5" runat="server" Height="100%" ImageUrl="~/Images/bakery.jpg" Width="100%" />
-            </td>
-        </tr>
-    </table>    
+    <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/bakery1.jpg" Height="100%" Width="100%" />
+    <h1 style="text-align:center">About Us</h1>
+    <p style="text-align:center">WOW Bakery started as a bakery. It is our everyday goal to produce foods that will not only nourish your body but also delight your senses, leaving you a wonderful memory. All items are by special order and can be tailored to fit the client’s needs.</p>
     
 &nbsp;
 
