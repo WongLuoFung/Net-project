@@ -2,18 +2,17 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-        <p>
 
-            <div style="text-align:center">
+
+            <p style="text-align:center">
             <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                 <ContentTemplate>
-                    <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/slider.xml" />
+                    <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/slider.xml" Height="700px" Width="1165px" />
                     <asp:Timer ID="Timer1" runat="server" Interval="2000"></asp:Timer>
                 </ContentTemplate>
             </asp:UpdatePanel>
-            </div>
-        <p >&nbsp;</p>
-        </p>
+            </p>
+
 
     <table class="nav-justified" style="background-color:#f0d7a7;margin-top:10px;">
         <tr>
