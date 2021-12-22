@@ -5,7 +5,6 @@
     <p>Name:</p>
     <p>
         <asp:TextBox ID="tname" runat="server" CssClass="form-control"></asp:TextBox>
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="tname"></asp:RequiredFieldValidator>
     </p>
     <p>Email:</p>
     <p>
@@ -17,7 +16,7 @@
     </p>
     <p>Message</p>
     <p>
-        <asp:TextBox ID="tmessage" runat="server" CssClass="form-control" Height="81px" MaxWidth="280px"></asp:TextBox>
+        <asp:TextBox ID="tmessage" runat="server" CssClass="form-control" Height="81px" Rows="5"></asp:TextBox>
     </p>
         <asp:Button ID="csubmit" runat="server" OnClick="csubmit_Click" Text="Submit" CssClass="btn btn-primary" />
         <asp:Button ID="Reset" runat="server" Text="Reset" CssClass="btn" OnClick="Reset_Click" />
