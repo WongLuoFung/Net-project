@@ -32,28 +32,6 @@
         </tr>
     </table>
 
-    <table class="nav-justified" style="background-color:#f0d7a7;margin-top:10px;">
-        <tr>
-            <td style="width:50%;">
-              <p style="font-weight:bold;font-size:20px;margin:10px 40px ">Our Purpose</p>
-              <hr style="height:2px;border-width:0;color:gray;background-color:gray;margin:10px 40px ">
-              <p style="margin:10px 40px " >As Malaysians, having bread and pastries throughout the day is customary. It is convenient, accessible, and affordable for everyone! Baked goods are consumed by people of all ages, from young to old. Bread and pastries are universal, it’s a staple food in many countries.</p>
-              <p style="margin:10px 40px ">When we talk about bakery products, everyone will surely think of bakery goods from France or Japan. Who would ever think of Malaysia, would you? And yet Malaysia is a country so rich in culture and diversity, we have so much to share with the world!</p>
-              <p style="margin:10px 40px ">Therefore, WOW Bakery is born out of purpose to go above and beyond by connecting and understanding the needs and lifestyle of Malaysians to indulge entirely in all the baked goods.</p>
-              <p style="margin:10px 40px ">In WOW Bakery, we ensure top quality and wide selection of bakery goods catered specially for our customers. All individual bakery products are made with precision and the utmost attention to detail to establish a whole new experience and elevate flavours and textures for our patrons.</p>
-              <p style="margin:10px 40px ">We aim to be the leading bakery in Malaysia, in time taking over globally with our scrumptious baked goods and top-notch services. It will soon be unnecessary to travel abroad just to have a taste of the finest pastries!</p>
-              <p >&nbsp;</p>
-              <p style="margin:10px 40px">
-              <a class="btn btn-default" runat="server" href="~/About">Read More &raquo;</a>
-              </p>
-            </td>
-            <td style="width:50%;">
-              <asp:Image ID="Image5" runat="server" Height="457px" ImageUrl="~/Images/PEOPLE.png" Width="272px" style="margin-left:130px"/>
-            </td>
-        </tr>
-    </table>
-    <p >&nbsp;</p>
-
     <div class="jumbotron">
     <p style="text-align:center;color:saddlebrown;">Some Of Our Best Seller Items</p>
     <h2 style="text-align:center">ALL-TIME FAVOURITE</h2>
