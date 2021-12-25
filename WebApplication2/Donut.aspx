@@ -61,6 +61,9 @@
                         <br />
                         <br />
                         <br />
+                        <br />
+                        <br />
+                        <br />
                         <a class="btn btn-default" runat="server" href="~/Cake">Cake &raquo;</a>
                         <a class="btn btn-default" runat="server" href="~/Bread" style="margin-left:10px">Bread &raquo;</a>
                     </td>
@@ -88,9 +91,8 @@
                             <br />
                             <p style="margin-left:10px;margin-top:-20px;">Total Price:
                             <asp:Label ID="Label5" runat="server"></asp:Label></p>
-                            <br />
-                            <br />
                             <asp:RangeValidator ID="RangeValidator2" runat="server" ControlToValidate="txtQty" EnableClientScript="False" ErrorMessage="Please complete the order to view the detail" ForeColor="Red" MaximumValue="5" MinimumValue="1" Type="Integer"></asp:RangeValidator>
+                            <br />
                         </asp:Panel>
                     </td>
                 </tr>
