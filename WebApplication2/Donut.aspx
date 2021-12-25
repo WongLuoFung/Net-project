@@ -67,26 +67,27 @@
                     <td style="vertical-align:top;" width="50%">
                         <asp:Panel ID="Panel1" runat="server">
                             <br />
-                            ORDER DETAILS:<br />
+                            <p style="margin-left:10px;">ORDER DETAILS:</p>
                             <br />
-                            <asp:Image ID="Image1" runat="server" Height="400px" Width="400px" />
+                            <asp:Image ID="Image1" runat="server" Height="400px" Width="400px" style="margin:10px 10px;" />
                             <br />
-                            Email:<asp:Label ID="Label6" runat="server"></asp:Label>
+                            <p style="margin-left:10px;">Email:
+                            <asp:Label ID="Label6" runat="server"></asp:Label></p>
                             <br />
-                            Flavor:
-                            <asp:Label ID="Label1" runat="server"></asp:Label>
+                            <p style="margin-left:10px;margin-top:-20px;">Flavor:
+                            <asp:Label ID="Label1" runat="server"></asp:Label></p>
                             <br />
-                            Quantity:
-                            <asp:Label ID="Label2" runat="server"></asp:Label>
+                            <p style="margin-left:10px;margin-top:-20px;">Quantity:
+                            <asp:Label ID="Label2" runat="server"></asp:Label></p>
                             <br />
-                            Topping:
-                            <asp:Label ID="Label3" runat="server"></asp:Label>
+                            <p style="margin-left:10px;margin-top:-20px;">Topping:
+                            <asp:Label ID="Label3" runat="server"></asp:Label></p>
                             <br />
-                            Decoration:
-                            <asp:Label ID="Label4" runat="server"></asp:Label>
+                            <p style="margin-left:10px;margin-top:-20px;">Decoration:
+                            <asp:Label ID="Label4" runat="server"></asp:Label></p>
                             <br />
-                            Total Price:
-                            <asp:Label ID="Label5" runat="server"></asp:Label>
+                            <p style="margin-left:10px;margin-top:-20px;">Total Price:
+                            <asp:Label ID="Label5" runat="server"></asp:Label></p>
                             <br />
                             <br />
                             <asp:RangeValidator ID="RangeValidator2" runat="server" ControlToValidate="txtQty" EnableClientScript="False" ErrorMessage="Please complete the order to view the detail" ForeColor="Red" MaximumValue="5" MinimumValue="1" Type="Integer"></asp:RangeValidator>
