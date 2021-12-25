@@ -14,7 +14,7 @@
 </head>
 <body>
         <div>
-            <h1 class="auto-style2" style="text-align:center">Cake</h1>
+            <h1 class="auto-style2" style="text-align:center">Cakes</h1>
             <br />
             <table align="center" cellpadding="10" cellspacing="1" class="auto-style1" border="1">
                 <tr>

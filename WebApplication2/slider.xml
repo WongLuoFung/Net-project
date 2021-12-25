@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Advertisements>
 	<Ad>
-		<ImageUrl>Images/about1.jpg</ImageUrl>
+		<ImageUrl>Images/Need.jpg</ImageUrl>
 	</Ad>
 	<Ad>
-		<ImageUrl>Images/about2.jpg</ImageUrl>
+		<ImageUrl>Images/Tea.jpg</ImageUrl>
 	</Ad>
 	<Ad>
-		<ImageUrl>Images/about3.jpg</ImageUrl>
+		<ImageUrl>Images/Special.jpg</ImageUrl>
+	</Ad>
+	<Ad>
+		<ImageUrl>Images/Box.jpg</ImageUrl>
 	</Ad>
 </Advertisements>

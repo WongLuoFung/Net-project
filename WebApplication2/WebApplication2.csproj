@@ -189,6 +189,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
     <Content Include="Admin\Web.config" />
+    <Content Include="Images\Box.jpg" />
     <Content Include="Images\Ciabatta.jpg" />
     <Content Include="Images\Cinnamon Twist Doughnut.jpg" />
     <Content Include="Images\Home.jpg" />
@@ -203,11 +204,14 @@
     <Content Include="Images\cake.jpg" />
     <Content Include="Images\Chocolate Frosted Doughnut.jpg" />
     <Content Include="Images\donut.jpg" />
+    <Content Include="Images\Need.jpg" />
     <Content Include="Images\Old-fashioned Doughnut.jpg" />
     <Content Include="Images\PEOPLE.png" />
     <Content Include="Images\Purpose.jpg" />
     <Content Include="Images\Red Velvet.jpg" />
     <Content Include="Images\Sourdough.jpg" />
+    <Content Include="Images\Special.jpg" />
+    <Content Include="Images\Tea.jpg" />
     <Content Include="Images\Whole Wheat Bread.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

@@ -2,13 +2,11 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-
-
             <p style="text-align:center">
             <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                 <ContentTemplate>
-                    <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/slider.xml" Height="600px" Width="1170px" />
-                    <asp:Timer ID="Timer1" runat="server" Interval="2000"></asp:Timer>
+                    <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/slider.xml" Height="700px" Width="1170px" />
+                    <asp:Timer ID="Timer1" runat="server" Interval="2766"></asp:Timer>
                 </ContentTemplate>
             </asp:UpdatePanel>
             </p>
@@ -41,20 +39,20 @@
             <h2>
                 <asp:ImageButton ID="ImageButton3" ImageUrl="~/Images/cake.jpg" runat="server" PostBackUrl="~/Cake.aspx" Height="100%" Width="100%"/>
             </h2>
-            <h2 style="text-align:center">Cake</h2>
+            <h2 style="text-align:center">Cakes</h2>
         </div>
         <div class="col-md-4">
             <h2>
                 <asp:ImageButton ID="ImageButton2" ImageUrl="~/Images/donut.jpg" runat="server" PostBackUrl="~/Donut.aspx" Height="100%" Width="100%"/>
             </h2>
-            <h2 style="text-align:center">Donut</h2>
+            <h2 style="text-align:center">Donuts</h2>
             <p>&nbsp;</p>
         </div>
         <div class="col-md-4">
             <h2>
                 <asp:ImageButton ID="ImageButton1" ImageUrl="~/Images/bread.jpg" runat="server" PostBackUrl="~/Bread.aspx" Height="100%" Width="100%"/>
             </h2>
-            <h2 style="text-align:center">Bread</h2>
+            <h2 style="text-align:center">Breads</h2>
         </div>
         </div>
     </div>
