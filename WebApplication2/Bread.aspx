@@ -13,8 +13,9 @@
     </style>
 </head>
 <body>
+
         <div>
-            <h1 class="auto-style2" style="text-align:center">Bread</h1>
+            <h1 class="auto-style2" style="text-align:center">Breads</h1>
             <br />
             <table align="center" cellpadding="10" cellspacing="1" class="auto-style1" border="1">
                 <tr>
@@ -38,16 +39,16 @@
                         <br />
                         Topping:<br />
                         <asp:RadioButtonList ID="rbl1" runat="server" AutoPostBack="True" Width="400px">
-                            <asp:ListItem Value="0.00">Fondant (+ RM 0.00)</asp:ListItem>
-                            <asp:ListItem Value="0.80">Buttercream (+ RM 0.80)</asp:ListItem>
-                            <asp:ListItem Value="1.40">Naked (+ RM 1.40)</asp:ListItem>
+                            <asp:ListItem Value="5.50">Vegan garlic sauce (+ RM 0.00)</asp:ListItem>
+                            <asp:ListItem Value="6.00">Tomato & White Bean Soup (+ RM 0.80)</asp:ListItem>
+                            <asp:ListItem Value="0.00">Naked (+ RM 1.40)</asp:ListItem>
                         </asp:RadioButtonList>
                         <br />
                         Decoration:<br />
                         <asp:CheckBoxList ID="cbl1" runat="server" AutoPostBack="True" Width="400px">
-                            <asp:ListItem Value="7.00">M&amp;M (+ RM 7.00)</asp:ListItem>
-                            <asp:ListItem Value="8.00">Snickers (+ RM 8.00)</asp:ListItem>
-                            <asp:ListItem Value="8.50">Oreo (+ RM 9.00)</asp:ListItem>
+                            <asp:ListItem Value="3.00">Scoring (+ RM 7.00)</asp:ListItem>
+                            <asp:ListItem Value="2.00">Lattice (+ RM 8.00)</asp:ListItem>
+                            <asp:ListItem Value="5.50">Braiding (+ RM 9.00)</asp:ListItem>
                         </asp:CheckBoxList>
                         <br />
                         <asp:Button ID="btnSubmit" runat="server" Text="Submit Order" OnClick="Button1_Click" />
