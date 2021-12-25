@@ -91,7 +91,7 @@
                             <br />
                             <p style="margin-left:10px;margin-top:-20px;">Total Price:
                             <asp:Label ID="Label5" runat="server"></asp:Label></p>
-                            <asp:RangeValidator ID="RangeValidator2" runat="server" ControlToValidate="txtQty" EnableClientScript="False" ErrorMessage="Please complete the order to view the detail" ForeColor="Red" MaximumValue="5" MinimumValue="1" Type="Integer"></asp:RangeValidator>
+                            <asp:RangeValidator ID="RangeValidator2" runat="server" ControlToValidate="txtQty" EnableClientScript="False" ErrorMessage="Please complete the order to view the detail" ForeColor="Red" MaximumValue="5" MinimumValue="1" Type="Integer" style="margin-left:10px;margin-top:-20px;"></asp:RangeValidator>
                             <br />
                         </asp:Panel>
                     </td>

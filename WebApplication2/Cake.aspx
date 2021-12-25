@@ -14,7 +14,10 @@
 </head>
 <body>
         <div>
-            <h1 class="auto-style2" style="text-align:center">Cakes</h1>
+        <div class="jumbotron" style="background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url('Images/cake jum222.jpg'); margin-left:173px; width:70%; height:70%">
+        <h1 style="color:white">Cake</h1>
+        <p class="lead" style="color:white">Cake is a form of sweet food made from flour, sugar, and other ingredients, that is usually baked. cakes now cover a wide range of preparations that can be simple or elaborate.Our cake using only natural freshest ingredients to make. </p>
+        </div>
             <br />
             <table align="center" cellpadding="10" cellspacing="1" class="auto-style1" border="1">
                 <tr>
@@ -91,7 +94,7 @@
                             <br />
                             <p style="margin-left:10px;margin-top:-20px;">Total Price:
                             <asp:Label ID="Label5" runat="server"></asp:Label></p>
-                            <asp:RangeValidator ID="RangeValidator2" runat="server" ControlToValidate="txtQty" EnableClientScript="False" ErrorMessage="Please complete the order to view the detail" ForeColor="Red" MaximumValue="5" MinimumValue="1" Type="Integer"></asp:RangeValidator>
+                            <asp:RangeValidator ID="RangeValidator2" runat="server" ControlToValidate="txtQty" EnableClientScript="False" ErrorMessage="Please complete the order to view the detail" ForeColor="Red" MaximumValue="5" MinimumValue="1" Type="Integer" style="margin-left:10px;margin-top:-20px;" ></asp:RangeValidator>
                             <br />
                         </asp:Panel>
                     </td>
