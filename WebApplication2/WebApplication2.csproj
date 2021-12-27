@@ -190,9 +190,11 @@
     <Content Include="Account\Web.config" />
     <Content Include="Admin\Web.config" />
     <Content Include="Images\Box.jpg" />
+    <Content Include="Images\bread 222.jpg" />
     <Content Include="Images\cake jum222.jpg" />
     <Content Include="Images\Ciabatta.jpg" />
     <Content Include="Images\Cinnamon Twist Doughnut.jpg" />
+    <Content Include="Images\Donut jum221.jpg" />
     <Content Include="Images\Home.jpg" />
     <Content Include="Images\about1.jpg" />
     <Content Include="Images\about2.jpg" />
