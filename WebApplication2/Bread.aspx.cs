@@ -68,8 +68,6 @@ namespace WebApplication2
                 double total = (flavor + topping + decoration) * qty;
                 Label5.Text = "RM " + string.Format("{0:0.00}", total);
 
-                Message #general
-
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     SqlCommand command = new SqlCommand(
