@@ -88,7 +88,7 @@
             <hr />
         </div>
     </form>
-                <footer style="background-color:#c37960;margin-bottom:-30px">
+                <footer style="background-color:#c37960;margin-top:auto;left: 0;bottom: 0;">
                 <p style="text-align:center;color:white;font-weight:bold;padding:5px;">&copy; <%: DateTime.Now.Year %> - Design by Ow Ka Siong, Wong Jun Ann & Wong Luo Fung</p>
             </footer>
 </body>
