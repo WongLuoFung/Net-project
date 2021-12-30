@@ -58,7 +58,7 @@
                         <asp:Panel ID="Panel1" runat="server">
                             <br />
                             <p style="margin-left:10px;">ORDER DETAILS:</p>
-                            <asp:Image ID="Image1" runat="server" Height="400px" Width="400px" style="margin:0px 10px 10px 10px;" />
+                            <asp:Image ID="Image1" runat="server" Height="400px" Width="400px" style="margin: 0px 10px 10px 10px;" />
                             <br />
                             <p style="margin-left:10px;">Email:
                             <asp:Label ID="Label6" runat="server"></asp:Label></p>
