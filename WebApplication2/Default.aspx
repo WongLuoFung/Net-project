@@ -30,7 +30,7 @@
     </table>
 
     <p>&nbsp;</p>
-    <div class="jumbotron clr1">
+    <div class="jumbotron clr1" style="background-color:#e6ca94;">
     <p style="text-align:center;color:saddlebrown;">Some Of Our Best Seller Items</p>
     <h2 style="text-align:center">ALL-TIME FAVOURITE</h2>
     <hr style="height:2px;border-width:0;color:gray;background-color:gray;width:50%">
