@@ -87,7 +87,6 @@
                     </td>
                 </tr>
             </table>
-            <p>&nbsp;</p>
         </div>
 </body>
 </html>
