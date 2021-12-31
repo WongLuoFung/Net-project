@@ -8,7 +8,7 @@
     </div>
     <div class="container">
         <div class="row" style="display:flex;">
-            <div class="col-md-6" style="background-color:darkseagreen; padding:20px 50px 30px 50px;">
+            <div class="col-md-6" style="background-color:#DEB887; padding:20px 50px 30px 50px;">
                 <h3>Address</h3>
                 <address style="padding-left:20px;">
                     One Microsoft Way<br />
@@ -30,7 +30,7 @@
                        <br>Sunday & Public holiday: Do not open.
                    </div>
             </div>
-            <div class="col-md-6" style="background-color:aliceblue; padding:20px 50px 30px 50px;">
+            <div class="col-md-6" style="background-color:#e6ca94; padding:20px 50px 30px 50px;">
                 <h2>Have Any Question?</h2>
                 <br>
                 <p>Name:</p>

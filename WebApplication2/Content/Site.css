@@ -36,3 +36,14 @@ input[type="select"] {
         padding: 0;
     }
 }
+
+.btn-wow {
+    color: #fff;
+    background-color: #993300;
+    border-color: #cc6600;
+}
+
+    .btn-wow:hover {
+        color: #fff;
+        font-weight: bold;
+    }

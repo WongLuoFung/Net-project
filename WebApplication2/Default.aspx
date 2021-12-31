@@ -23,7 +23,7 @@
               <p style="margin:10px 40px " >Welcome to WOW Bakery where we put our heart and passion into baking artisanal bread and pastries.</p>
               <p style="margin:10px 40px ">Originated from Malaysia, WOW Bakery is one of the most famous homegrown bakery chains with outlets in Taiwan, China and Malaysia. We believe in complete transparency where all the bread is baked from scratch with no added flavouring and colouring in the process, using the finest ingredients, traditional techniques and original recipes which all come together in the hands of our expert bread artisans to deliver the most authentic flavours and experiences.</p>
               <p style="margin:10px 40px">
-                <a class="btn btn-default" runat="server" href="~/About">Read More &raquo;</a>
+                <a class="btn btn-wow" runat="server" href="~/About">Read More &raquo;</a>
              </p>
             </td>
         </tr>
