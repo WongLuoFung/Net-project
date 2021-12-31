@@ -33,9 +33,9 @@
                 <asp:Image ID="Image1" runat="server" Height="30%" ImageUrl='<%# "~/ImageHandler.ashx?ImageId="+Eval("ImageId") %>' Width="30%" />
             </ItemTemplate>
         </asp:FormView>
-                    <asp:FileUpload ID="FileUpload2" runat="server" />
+                    <asp:FileUpload ID="FileUpload1" runat="server" />
     <asp:Button ID="Button1" runat="server" OnClick="btnUpload_Click" Text="Upload" />
-    <asp:Label ID="Label2" runat="server"></asp:Label>
+    <asp:Label ID="Label1" runat="server"></asp:Label>
     <br />
     <br />
     <br />
