@@ -2,6 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <p>
 </p>
+
+    <div class="jumbotron" style="background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url('Images/bakery1.jpg'); ">
+        <h1 style="color:white">About Us</h1>
+        <p class="lead" style="color:white">WOW Bakery started as a bakery. It is our everyday goal to produce foods that will not only nourish your body but also delight your senses, leaving you a wonderful memory. We ensure top quality and wide selection of bakery goods catered specially for our customers. All individual bakery products are made with precision and the utmost attention to detail.All items are by special order and can be tailored to fit the client’s needs.</p>
+        </div>
+
 <p style="font-size:20px;font-weight:bold;">
     Member List</p>
 <p>

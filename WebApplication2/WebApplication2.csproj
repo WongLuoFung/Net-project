@@ -154,6 +154,10 @@
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
     <Content Include="Account\Forgot.aspx" />
+    <Content Include="Account\Image\Log in.jpg" />
+    <Content Include="Account\Image\Wallpaper 1.jpg" />
+    <Content Include="Account\Image\Wallpaper 2.jpg" />
+    <Content Include="Account\Image\Wallpaper Log in.jpg" />
     <Content Include="Account\Lockout.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Manage.aspx" />
