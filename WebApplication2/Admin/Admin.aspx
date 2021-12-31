@@ -3,21 +3,26 @@
     <p>
 </p>
 
-    <div class="jumbotron" style="background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url('Images/bakery1.jpg'); ">
-        <h1 style="color:white">About Us</h1>
-        <p class="lead" style="color:white">WOW Bakery started as a bakery. It is our everyday goal to produce foods that will not only nourish your body but also delight your senses, leaving you a wonderful memory. We ensure top quality and wide selection of bakery goods catered specially for our customers. All individual bakery products are made with precision and the utmost attention to detail.All items are by special order and can be tailored to fit the client’s needs.</p>
-        </div>
 
 <p style="font-size:20px;font-weight:bold;">
     Member List</p>
 <p>
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1" Width="1030px" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2">
         <Columns>
             <asp:CommandField ShowDeleteButton="True" ShowSelectButton="True" />
             <asp:BoundField DataField="Id" HeaderText="Id" ReadOnly="True" SortExpression="Id" />
             <asp:BoundField DataField="Email" HeaderText="Email" SortExpression="Email" />
             <asp:BoundField DataField="PhoneNumber" HeaderText="PhoneNumber" SortExpression="PhoneNumber" />
         </Columns>
+        <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
+        <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
+        <PagerStyle ForeColor="#8C4510" HorizontalAlign="Center" />
+        <RowStyle BackColor="#FFF7E7" ForeColor="#8C4510" />
+        <SelectedRowStyle BackColor="#738A9C" Font-Bold="True" ForeColor="White" />
+        <SortedAscendingCellStyle BackColor="#FFF1D4" />
+        <SortedAscendingHeaderStyle BackColor="#B95C30" />
+        <SortedDescendingCellStyle BackColor="#F1E5CE" />
+        <SortedDescendingHeaderStyle BackColor="#93451F" />
     </asp:GridView>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" DeleteCommand="DELETE FROM [AspNetUsers] WHERE [Id] = @Id" InsertCommand="INSERT INTO [AspNetUsers] ([Id], [Email], [PhoneNumber]) VALUES (@Id, @Email, @PhoneNumber)" SelectCommand="SELECT [Id], [Email], [PhoneNumber] FROM [AspNetUsers]" UpdateCommand="UPDATE [AspNetUsers] SET [Email] = @Email, [PhoneNumber] = @PhoneNumber WHERE [Id] = @Id">
         <DeleteParameters>
@@ -40,7 +45,7 @@
     <p style="font-size:20px;font-weight:bold;">
         Order Detail</p>
     <p>
-        <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataKeyNames="OrderId" DataSourceID="SqlDataSource2">
+        <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataKeyNames="OrderId" DataSourceID="SqlDataSource2" Width="1300px" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2">
             <Columns>
                 <asp:CommandField ShowDeleteButton="True" ShowSelectButton="True" />
                 <asp:BoundField DataField="OrderId" HeaderText="OrderId" InsertVisible="False" ReadOnly="True" SortExpression="OrderId" />
@@ -52,6 +57,15 @@
                 <asp:BoundField DataField="Decoration" HeaderText="Decoration" SortExpression="Decoration" />
                 <asp:BoundField DataField="TotalPrice" HeaderText="TotalPrice" SortExpression="TotalPrice" />
             </Columns>
+            <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
+            <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
+            <PagerStyle ForeColor="#8C4510" HorizontalAlign="Center" />
+            <RowStyle BackColor="#FFF7E7" ForeColor="#8C4510" />
+            <SelectedRowStyle BackColor="#738A9C" Font-Bold="True" ForeColor="White" />
+            <SortedAscendingCellStyle BackColor="#FFF1D4" />
+            <SortedAscendingHeaderStyle BackColor="#B95C30" />
+            <SortedDescendingCellStyle BackColor="#F1E5CE" />
+            <SortedDescendingHeaderStyle BackColor="#93451F" />
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" DeleteCommand="DELETE FROM [Order] WHERE [OrderId] = @OrderId" InsertCommand="INSERT INTO [Order] ([Id], [OrderEmail], [Flavor], [Quantity], [Topping], [Decoration], [TotalPrice]) VALUES (@Id, @OrderEmail, @Flavor, @Quantity, @Topping, @Decoration, @TotalPrice)" SelectCommand="SELECT * FROM [Order]" UpdateCommand="UPDATE [Order] SET [Id] = @Id, [OrderEmail] = @OrderEmail, [Flavor] = @Flavor, [Quantity] = @Quantity, [Topping] = @Topping, [Decoration] = @Decoration, [TotalPrice] = @TotalPrice WHERE [OrderId] = @OrderId">
             <DeleteParameters>
@@ -82,18 +96,20 @@
         &nbsp;</p>
     <p style="font-size:20px;font-weight:bold;">
         Customer Message</p>
-    <p>
-        <asp:GridView ID="GridView3" runat="server" AutoGenerateColumns="False" DataKeyNames="MessageId" DataSourceID="SqlDataSource3">
-            <Columns>
-                <asp:CommandField ShowDeleteButton="True" ShowSelectButton="True" />
-                <asp:BoundField DataField="MessageId" HeaderText="MessageId" InsertVisible="False" ReadOnly="True" SortExpression="MessageId" />
-                <asp:BoundField DataField="Id" HeaderText="Id" SortExpression="Id" />
-                <asp:BoundField DataField="MessageEmail" HeaderText="MessageEmail" SortExpression="MessageEmail" />
-                <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
-                <asp:BoundField DataField="Subject" HeaderText="Subject" SortExpression="Subject" />
-                <asp:BoundField DataField="Message" HeaderText="Message" SortExpression="Message" />
-            </Columns>
+    <p style="font-size:20px;font-weight:bold;">
+        <asp:GridView ID="GridView3" runat="server" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2" DataSourceID="SqlDataSource3" Width="1031px">
+            <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
+            <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
+            <PagerStyle ForeColor="#8C4510" HorizontalAlign="Center" />
+            <RowStyle BackColor="#FFF7E7" ForeColor="#8C4510" />
+            <SelectedRowStyle BackColor="#738A9C" Font-Bold="True" ForeColor="White" />
+            <SortedAscendingCellStyle BackColor="#FFF1D4" />
+            <SortedAscendingHeaderStyle BackColor="#B95C30" />
+            <SortedDescendingCellStyle BackColor="#F1E5CE" />
+            <SortedDescendingHeaderStyle BackColor="#93451F" />
         </asp:GridView>
+    </p>
+    <p>
         <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" DeleteCommand="DELETE FROM [contact] WHERE [MessageId] = @MessageId" InsertCommand="INSERT INTO [contact] ([Id], [MessageEmail], [Name], [Subject], [Message]) VALUES (@Id, @MessageEmail, @Name, @Subject, @Message)" SelectCommand="SELECT * FROM [contact]" UpdateCommand="UPDATE [contact] SET [Id] = @Id, [MessageEmail] = @MessageEmail, [Name] = @Name, [Subject] = @Subject, [Message] = @Message WHERE [MessageId] = @MessageId">
             <DeleteParameters>
                 <asp:Parameter Name="MessageId" Type="Int32" />

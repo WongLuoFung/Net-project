@@ -1,9 +1,44 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Profile.aspx.cs" Inherits="WebApplication2.Member.Profile" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <p style="font-size:20px;font-weight:bold">
-    <br />
+
     Profile</p>
-<p>
+
+        <asp:FormView ID="FormView1" runat="server" DataKeyNames="ImageId" DataSourceID="SqlDataSource2">
+            <EditItemTemplate>
+                ImageId:
+                <asp:Label ID="ImageIdLabel1" runat="server" Text='<%# Eval("ImageId") %>' />
+                <br />
+                Id:
+                <asp:TextBox ID="IdTextBox" runat="server" Text='<%# Bind("Id") %>' />
+                <br />
+                ImageUpload:
+                <asp:TextBox ID="ImageUploadTextBox" runat="server" Text='<%# Bind("ImageUpload") %>' />
+                <br />
+                <asp:LinkButton ID="UpdateButton" runat="server" CausesValidation="True" CommandName="Update" Text="Update" />
+                &nbsp;<asp:LinkButton ID="UpdateCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+            </EditItemTemplate>
+            <InsertItemTemplate>
+                Id:
+                <asp:TextBox ID="IdTextBox" runat="server" Text='<%# Bind("Id") %>' />
+                <br />
+                ImageUpload:
+                <asp:TextBox ID="ImageUploadTextBox" runat="server" Text='<%# Bind("ImageUpload") %>' />
+                <br />
+                <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" />
+                &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+            </InsertItemTemplate>
+            <ItemTemplate>
+                <br />
+                <asp:Image ID="Image1" runat="server" Height="30%" ImageUrl='<%# "~/ImageHandler.ashx?ImageId="+Eval("ImageId") %>' Width="30%" />
+            </ItemTemplate>
+        </asp:FormView>
+                    <asp:FileUpload ID="FileUpload2" runat="server" />
+    <asp:Button ID="Button1" runat="server" OnClick="btnUpload_Click" Text="Upload" />
+    <asp:Label ID="Label2" runat="server"></asp:Label>
+    <br />
+    <br />
+    <br />
     <asp:FormView ID="FormView3" runat="server" DataKeyNames="Id" DataSourceID="SqlDataSource1">
         <EditItemTemplate>
             Id:
@@ -55,6 +90,8 @@
             &nbsp;<asp:LinkButton ID="NewButton" runat="server" CausesValidation="False" CommandName="New" Text="New" />
         </ItemTemplate>
     </asp:FormView>
+
+<p>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" DeleteCommand="DELETE FROM [AspNetUsers] WHERE [Id] = @Id" InsertCommand="INSERT INTO [AspNetUsers] ([Id], [Email], [UserName], [PhoneNumber]) VALUES (@Id, @Email, @UserName, @PhoneNumber)" OnSelecting="SqlDataSource1_Selecting1" SelectCommand="SELECT [Id], [Email], [UserName], [PhoneNumber] FROM [AspNetUsers] WHERE ([Id] = @Id)" UpdateCommand="UPDATE [AspNetUsers] SET [Email] = @Email, [UserName] = @UserName, [PhoneNumber] = @PhoneNumber WHERE [Id] = @Id">
         <DeleteParameters>
             <asp:Parameter Name="Id" Type="String" />
@@ -77,40 +114,8 @@
     </asp:SqlDataSource>
 </p>
 <p>
-    <asp:FileUpload ID="FileUpload1" runat="server" />
-    <asp:Button ID="btnUpload" runat="server" OnClick="btnUpload_Click" Text="Upload" />
-    <asp:Label ID="Label1" runat="server"></asp:Label>
-</p>
+    &nbsp;</p>
     <p>
-        <asp:FormView ID="FormView2" runat="server" DataKeyNames="ImageId" DataSourceID="SqlDataSource2">
-            <EditItemTemplate>
-                ImageId:
-                <asp:Label ID="ImageIdLabel1" runat="server" Text='<%# Eval("ImageId") %>' />
-                <br />
-                Id:
-                <asp:TextBox ID="IdTextBox" runat="server" Text='<%# Bind("Id") %>' />
-                <br />
-                ImageUpload:
-                <asp:TextBox ID="ImageUploadTextBox" runat="server" Text='<%# Bind("ImageUpload") %>' />
-                <br />
-                <asp:LinkButton ID="UpdateButton" runat="server" CausesValidation="True" CommandName="Update" Text="Update" />
-                &nbsp;<asp:LinkButton ID="UpdateCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
-            </EditItemTemplate>
-            <InsertItemTemplate>
-                Id:
-                <asp:TextBox ID="IdTextBox" runat="server" Text='<%# Bind("Id") %>' />
-                <br />
-                ImageUpload:
-                <asp:TextBox ID="ImageUploadTextBox" runat="server" Text='<%# Bind("ImageUpload") %>' />
-                <br />
-                <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" />
-                &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
-            </InsertItemTemplate>
-            <ItemTemplate>
-                <br />
-                <asp:Image ID="Image1" runat="server" Height="30%" ImageUrl='<%# "~/ImageHandler.ashx?ImageId="+Eval("ImageId") %>' Width="30%" />
-            </ItemTemplate>
-        </asp:FormView>
         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" OnSelecting="SqlDataSource2_Selecting" SelectCommand="SELECT * FROM [Image] WHERE ([Id] = @Id)">
             <SelectParameters>
                 <asp:Parameter Name="Id" Type="String" />
