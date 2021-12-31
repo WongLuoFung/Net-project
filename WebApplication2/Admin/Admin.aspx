@@ -9,7 +9,7 @@
 <p>
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="SqlDataSource1" Width="1030px" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2">
         <Columns>
-            <asp:CommandField ShowDeleteButton="True" ShowSelectButton="True" />
+            <asp:CommandField ShowDeleteButton="True" />
             <asp:BoundField DataField="Id" HeaderText="Id" ReadOnly="True" SortExpression="Id" />
             <asp:BoundField DataField="Email" HeaderText="Email" SortExpression="Email" />
             <asp:BoundField DataField="PhoneNumber" HeaderText="PhoneNumber" SortExpression="PhoneNumber" />
@@ -47,7 +47,7 @@
     <p>
         <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataKeyNames="OrderId" DataSourceID="SqlDataSource2" Width="1300px" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2">
             <Columns>
-                <asp:CommandField ShowDeleteButton="True" ShowSelectButton="True" />
+                <asp:CommandField ShowDeleteButton="True" />
                 <asp:BoundField DataField="OrderId" HeaderText="OrderId" InsertVisible="False" ReadOnly="True" SortExpression="OrderId" />
                 <asp:BoundField DataField="Id" HeaderText="Id" SortExpression="Id" />
                 <asp:BoundField DataField="OrderEmail" HeaderText="OrderEmail" SortExpression="OrderEmail" />
@@ -97,7 +97,16 @@
     <p style="font-size:20px;font-weight:bold;">
         Customer Message</p>
     <p style="font-size:20px;font-weight:bold;">
-        <asp:GridView ID="GridView3" runat="server" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2" DataSourceID="SqlDataSource3" Width="1031px">
+        <asp:GridView ID="GridView3" runat="server" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2" DataSourceID="SqlDataSource3" Width="1031px" AutoGenerateColumns="False" DataKeyNames="MessageId">
+            <Columns>
+                <asp:CommandField ShowDeleteButton="True" />
+                <asp:BoundField DataField="MessageId" HeaderText="MessageId" InsertVisible="False" ReadOnly="True" SortExpression="MessageId" />
+                <asp:BoundField DataField="Id" HeaderText="Id" SortExpression="Id" />
+                <asp:BoundField DataField="MessageEmail" HeaderText="MessageEmail" SortExpression="MessageEmail" />
+                <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
+                <asp:BoundField DataField="Subject" HeaderText="Subject" SortExpression="Subject" />
+                <asp:BoundField DataField="Message" HeaderText="Message" SortExpression="Message" />
+            </Columns>
             <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
             <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
             <PagerStyle ForeColor="#8C4510" HorizontalAlign="Center" />
