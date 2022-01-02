@@ -18,7 +18,7 @@
 <body>
         <div>
             <div class="jumbotron" style="background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url('Images/Donut jum221.jpg'); margin-left:173px; width:70%; height:70%">
-            <h1 style="color:white">Donuts</h1>
+            <h1 style="color:white">Donut</h1>
             <p class="lead" style="color:white">Hanson Gregory, an American, claimed to have invented the ring-shaped doughnut in 1847 aboard a lime-trading ship when he was 16 years old. Gregory was dissatisfied with the greasiness of doughnuts twisted into various shapes and with the raw centre of regular doughnuts.</p>
         </div>
             <table align="center" cellpadding="10" cellspacing="1" class="auto-style1" border="1">

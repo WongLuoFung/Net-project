@@ -16,7 +16,7 @@
 
         <div>
             <div class="jumbotron" style="background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) , url('Images/bread 222.jpg'); margin-left:173px; width:70%; height:70%">
-            <h1 style="color:white">Breads</h1>
+            <h1 style="color:white">Bread</h1>
             <p class="lead" style="color:white">Bread is one of the oldest prepared foods. Evidence from 30,000 years ago in Europe and Australia revealed starch residue on rocks used for pounding plants. Around 10,000 BC, with the dawn of the Neolithic Age and the spread of agriculture, grains became the mainstay of making bread. Yeast spores are ubiquitous, including on the surface of cereal grains, so any dough left to rest leavens naturally.</p>
         </div>
             <br />

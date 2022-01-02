@@ -39,22 +39,23 @@
             <h2>
                 <asp:ImageButton ID="ImageButton3" ImageUrl="~/Images/cake.jpg" runat="server" PostBackUrl="~/Cake.aspx" Height="100%" Width="100%"/>
             </h2>
-            <h2 style="text-align:center; color:black;">Cakes</h2>
+            <h2 style="text-align:center; color:black;">Cake</h2>
         </div>
         <div class="col-md-4">
             <h2>
                 <asp:ImageButton ID="ImageButton2" ImageUrl="~/Images/donut.jpg" runat="server" PostBackUrl="~/Donut.aspx" Height="100%" Width="100%"/>
             </h2>
-            <h2 style="text-align:center; color:black;">Donuts</h2>
+            <h2 style="text-align:center; color:black;">Donut</h2>
             <p>&nbsp;</p>
         </div>
         <div class="col-md-4">
             <h2>
                 <asp:ImageButton ID="ImageButton1" ImageUrl="~/Images/bread.jpg" runat="server" PostBackUrl="~/Bread.aspx" Height="100%" Width="100%"/>
             </h2>
-            <h2 style="text-align:center; color:black;">Breads</h2>
+            <h2 style="text-align:center; color:black;">Bread</h2>
         </div>
         </div>
+        <p style="text-align:center;font-size:small;margin-bottom:-30px;">All the images are clickable.</p>
     </div>
 
 </asp:Content>
